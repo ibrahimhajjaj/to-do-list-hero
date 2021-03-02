@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To-Do List Hero</title>
+    <meta http-equiv = "content-type" content = "text/html; charset = UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link href="assets/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="main">
+
+    <div id="todo-app">
+        <div id="app-info">
+            <h1>To-do List Hero</h1>
+            <p>Add lists and click on them to mark it completed.</p>
+        </div>
+        
+        <div class="app-content">
+            <div id="add-list" class="input-wrapper-2-col">
+                <label for="n_list_text"><input type="text" id="n_list_text" name="n_list_text" placeholder="What needs to be done?"></label>
+                <input type="submit" value="Add" id="create-list">
+            </div>
+            
+            <div id="list-wrapper">
+                <ol>
+                    <li class="done">
+                        <p>Dalgona Coffee Challenge</p>
+                    </li>
+                    <li>
+                        <p>Read a book</p>
+                    </li>
+                    <li class="done">
+                        <p>Spring cleaning</p>
+                    </li>
+                    <li>
+                        <p>YouTube workout</p>
+                    </li>
+                    <li>
+                        <p>Netflix binge</p>
+                    </li>
+                    <li class="done">
+                        <p>Watching the new episode of Gotham S5</p>
+                    </li>
+                </ol>
+            </div>
+            
+            <div id="app-actions">
+                <ul class="d-inline none-list center">
+                    <li><input id="clear-completed" class="btn accent-bg" type="button" value="Clear completed"></li>
+                    <li><input id="clear-list" class="btn accent-bg" type="button" value="Empty list"></li>
+                    <li><input id="save-list" class="btn accent-bg" type="button" value="Save list"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="copyrights">
+        <ul class="social-icons">
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+        <p>
+            2020 &copy; All Rights Reversed To <span>I B R A H I M</span>.
+        </p>
+    </div>
+</div>
+
+<script src="assets/js/all.min.js"></script>
+
+<script src="assets/js/app.js"></script>
+
+</body>
+</html>
